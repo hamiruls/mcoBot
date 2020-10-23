@@ -17,7 +17,7 @@ class CreateTelegramsTable extends Migration
             $table->id();
             $table->string('chatid');
             $table->string('question');
-            $table->json('answer');
+            $table->string('answer');
             $table->time('masa');
             $table->time('masacron');
             $table->timestamps();
